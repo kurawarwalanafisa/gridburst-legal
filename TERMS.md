@@ -1,10 +1,12 @@
 # GridPop — Terms of Service
 
-**Effective Date:** 2026-05-22
-**Last Updated:** 2026-05-22
-**Version:** 2.0
+**Effective Date:** 2026-05-23
+**Last Updated:** 2026-05-23
+**Version:** 2.1
 
 These Terms of Service (the "**Terms**") govern your access to and use of the GridPop mobile application and any related services (collectively, the "**App**" or "**Service**") made available by the Publisher (defined in Section 22). By installing, accessing, registering for, or using the App in any manner, you ("**you**", "**your**", "**User**") agree to be bound by these Terms in full.
+
+For the avoidance of doubt and as further set out in Section 23, the App was conceived, designed, and developed by one or more independent persons (each a "**Creator**" and, together with their respective heirs, successors, assigns, affiliates, employees, contractors, agents, and licensors, the "**Developer Parties**"). All right, title, and interest required to distribute, monetize, and support the App have been licensed or assigned to the Publisher. **You acknowledge and agree that the App is offered to you exclusively by the Publisher, that the Developer Parties have no contractual, fiduciary, support, warranty, indemnity, or other obligation of any kind to you, and that the Developer Parties are intended third-party beneficiaries of, and may directly enforce, every disclaimer, limitation of liability, release, indemnity, arbitration provision, class-action waiver, and covenant not to sue contained in these Terms.** Wherever these Terms refer to the "**Released Parties**", that term means, collectively, the Publisher, the Developer Parties, and each of their respective parents, subsidiaries, affiliates, successors, assigns, officers, directors, shareholders, members, partners, employees, contractors, agents, licensors, suppliers, and distributors.
 
 **IF YOU DO NOT AGREE, DO NOT INSTALL OR USE THE APP.** Your only remedy for disagreement is to cease use and uninstall the App.
 
@@ -83,6 +85,24 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 5.4 **Privacy.** Use of rewarded ads is governed by the Privacy Policy and by Google's Advertising Policies (https://policies.google.com/technologies/ads).
 
+## 5A. TELEMETRY, ANALYTICS, AND DIAGNOSTICS
+
+5A.1 **Purposes.** The App may, now or in future versions, collect, generate, and transmit telemetry, analytics, performance, diagnostic, and crash-reporting data (collectively, "**Telemetry**") for the following purposes: (a) understanding how the App is installed, opened, used, and closed; (b) measuring feature engagement, session length, retention, and frequency of use; (c) identifying performance bottlenecks, crashes, ANRs, network errors, and stability issues; (d) detecting fraud, cheating, abuse, automation, or other violations of these Terms; (e) measuring the effectiveness of monetization (including IAP funnels and rewarded-ad engagement); (f) A/B testing of features, layouts, and configurations; (g) operating, debugging, securing, and improving the App; (h) producing aggregated or de-identified statistics for business or commercial purposes; and (i) complying with legal, regulatory, or platform requirements.
+
+5A.2 **Categories of Telemetry.** Telemetry may include, without limitation: app version and build, operating-system name and version, device model and form factor, language and region, screen size and orientation, free memory and storage, connection type, App lifecycle events (install, first launch, open, foreground, background, close, crash, force-quit), feature events (mode selected, game started, game ended, score achieved, IAP screen viewed, button tapped, ad requested, ad watched, settings changed), error and stack-trace data, request and response timings, a randomly-generated opaque installation identifier, and similar non-content event metadata. Telemetry expressly **excludes** the content of any communications and does **not** include real name, email address, phone number, payment-card data, precise location, contact lists, photos, calendar, microphone or camera content, or any data the App does not request permission to access.
+
+5A.3 **Third-party processors.** The Publisher may use one or more third-party analytics, attribution, crash-reporting, or product-analytics service providers (including, without limitation, Apple App Analytics, Google Play Console reporting, Firebase, Google Analytics for Firebase, Sentry, Crashlytics, AppsFlyer, Adjust, Mixpanel, Amplitude, PostHog, or successor tools) acting as processors on the Publisher's documented instructions. The specific providers in use at any given time are summarized in the Privacy Policy and may change from time to time without your individual notice. Each such provider is governed by its own privacy policy and applicable processor terms.
+
+5A.4 **Consent and legal basis.** Where applicable law (including the GDPR, UK GDPR, EU ePrivacy Directive, CCPA/CPRA, and similar regimes) requires consent for any category of Telemetry, the App will request that consent (for example, through an in-App consent dialog or a platform-provided framework such as iOS App Tracking Transparency or the Google User Messaging Platform) before such Telemetry is collected. Where consent is not required, the Publisher relies on its legitimate interests in operating, securing, and improving the App, and on performance of this contract. You may exercise the rights described in the Privacy Policy at any time, including the right to opt out where applicable.
+
+5A.5 **No sale; no behavioral advertising profiles.** Telemetry is **not** sold or shared for cross-context behavioral advertising as those terms are defined under the CCPA/CPRA. Telemetry is not used to build advertising or psychographic profiles for resale.
+
+5A.6 **Aggregated and de-identified data.** The Publisher may create aggregated, anonymized, or de-identified data from Telemetry and may use, retain, and disclose such data without restriction for any lawful purpose.
+
+5A.7 **Children.** The App is not directed to children under the age of digital consent (Section 1.1) and applies any required "child-directed" or "under age of consent" treatment signals to its Telemetry pipeline where reasonably required by applicable law or platform policy.
+
+5A.8 **Service Provider acting under Publisher.** All Telemetry is collected for, and processed under the control of, the Publisher. No Developer Party receives Telemetry data in identifiable form, has any role in determining the purposes and means of its processing, or has any liability with respect to it.
+
 ## 6. ONLINE SERVICES, LEADERBOARDS, AND USER CONTENT
 
 6.1 **Leaderboards.** Score submission to Apple Game Center and/or Google Play Games leaderboards is voluntary and depends on your platform account. The Publisher may reset, recalibrate, partition, suspend, or discontinue any leaderboard at any time to maintain integrity, prevent abuse, or for any other reason.
@@ -109,7 +129,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 9.1 **AS-IS / AS-AVAILABLE.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APP AND ALL CONTENT, FEATURES, AND SERVICES PROVIDED THROUGH IT ARE PROVIDED **"AS-IS" AND "AS-AVAILABLE"** WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
 
-9.2 **Disclaimed warranties.** THE PUBLISHER, ITS AFFILIATES, AND ITS LICENSORS EXPRESSLY DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO: (a) IMPLIED WARRANTIES OF MERCHANTABILITY; (b) FITNESS FOR A PARTICULAR PURPOSE; (c) NON-INFRINGEMENT; (d) TITLE; (e) QUIET ENJOYMENT; (f) ACCURACY, COMPLETENESS, OR CURRENTNESS OF CONTENT; (g) UNINTERRUPTED, ERROR-FREE, OR SECURE OPERATION; (h) ABSENCE OF VIRUSES, WORMS, OR HARMFUL COMPONENTS; (i) THAT THE APP WILL MEET YOUR REQUIREMENTS; OR (j) THAT DEFECTS WILL BE CORRECTED.
+9.2 **Disclaimed warranties.** THE RELEASED PARTIES (INCLUDING WITHOUT LIMITATION THE PUBLISHER AND THE DEVELOPER PARTIES) EXPRESSLY DISCLAIM ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO: (a) IMPLIED WARRANTIES OF MERCHANTABILITY; (b) FITNESS FOR A PARTICULAR PURPOSE; (c) NON-INFRINGEMENT; (d) TITLE; (e) QUIET ENJOYMENT; (f) ACCURACY, COMPLETENESS, OR CURRENTNESS OF CONTENT; (g) UNINTERRUPTED, ERROR-FREE, OR SECURE OPERATION; (h) ABSENCE OF VIRUSES, WORMS, OR HARMFUL COMPONENTS; (i) THAT THE APP WILL MEET YOUR REQUIREMENTS; OR (j) THAT DEFECTS WILL BE CORRECTED.
 
 9.3 **No advice.** Content in the App is for entertainment only and does not constitute legal, financial, medical, professional, or other advice.
 
@@ -117,9 +137,9 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 ## 10. LIMITATION OF LIABILITY
 
-10.1 **Exclusion of indirect damages.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE PUBLISHER, ITS AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, LICENSORS, OR DISTRIBUTORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOST PROFITS, LOST REVENUE, LOST GOODWILL, LOSS OF DATA, LOSS OF GAME PROGRESS, LOSS OF LEADERBOARD RANKINGS, LOSS OF IN-APP CURRENCY OR ENTITLEMENTS, BUSINESS INTERRUPTION, OR ANY OTHER INTANGIBLE LOSS, ARISING OUT OF OR RELATED TO THESE TERMS OR YOUR USE OF (OR INABILITY TO USE) THE APP, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND REGARDLESS OF THE LEGAL THEORY (CONTRACT, TORT, STRICT LIABILITY, STATUTE, OR OTHERWISE).
+10.1 **Exclusion of indirect damages.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL ANY OF THE RELEASED PARTIES (INCLUDING WITHOUT LIMITATION THE PUBLISHER, THE DEVELOPER PARTIES, AND THEIR RESPECTIVE PARENTS, SUBSIDIARIES, AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, CONTRACTORS, AGENTS, LICENSORS, SUPPLIERS, AND DISTRIBUTORS) BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOST PROFITS, LOST REVENUE, LOST GOODWILL, LOSS OF DATA, LOSS OF GAME PROGRESS, LOSS OF LEADERBOARD RANKINGS, LOSS OF IN-APP CURRENCY OR ENTITLEMENTS, BUSINESS INTERRUPTION, OR ANY OTHER INTANGIBLE LOSS, ARISING OUT OF OR RELATED TO THESE TERMS OR YOUR USE OF (OR INABILITY TO USE) THE APP, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND REGARDLESS OF THE LEGAL THEORY (CONTRACT, TORT, STRICT LIABILITY, STATUTE, OR OTHERWISE).
 
-10.2 **Aggregate cap.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE PUBLISHER'S TOTAL CUMULATIVE LIABILITY TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THESE TERMS OR THE APP SHALL NOT EXCEED THE GREATER OF: (a) THE TOTAL AMOUNT YOU PAID THE PUBLISHER FOR IAPs IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM; OR (b) USD $25. THIS CAP IS CUMULATIVE AND NOT PER CLAIM.
+10.2 **Aggregate cap.** TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE TOTAL CUMULATIVE LIABILITY OF THE RELEASED PARTIES (TAKEN TOGETHER, NOT PER PARTY) TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THESE TERMS OR THE APP SHALL NOT EXCEED THE GREATER OF: (a) THE TOTAL AMOUNT YOU PAID THE PUBLISHER FOR IAPs IN THE TWELVE (12) MONTHS PRECEDING THE EVENT GIVING RISE TO THE CLAIM; OR (b) USD $25. THIS CAP IS CUMULATIVE AND NOT PER CLAIM. THE LIABILITY OF THE DEVELOPER PARTIES TO YOU IS, IN ADDITION, INDEPENDENTLY CAPPED AT **USD $0**, MEANING THE DEVELOPER PARTIES HAVE NO MONETARY LIABILITY TO YOU OF ANY KIND TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW.
 
 10.3 **Essential basis.** THE LIMITATIONS IN THIS SECTION 10 ARE AN ESSENTIAL BASIS OF THE BARGAIN AND APPLY EVEN IF ANY LIMITED REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
 
@@ -129,9 +149,13 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 ## 11. INDEMNIFICATION
 
-11.1 **By you.** To the maximum extent permitted by applicable law, you agree to defend, indemnify, and hold harmless the Publisher, its affiliates, and their respective officers, directors, employees, agents, licensors, and distributors from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to: (a) your violation of these Terms; (b) your misuse of the App; (c) your violation of any applicable law or third-party right; (d) any content you submit or transmit through the App; or (e) your willful misconduct or gross negligence.
+11.1 **By you.** To the maximum extent permitted by applicable law, you agree to defend, indemnify, and hold harmless each of the Released Parties (including without limitation the Publisher, the Developer Parties, and each of their respective parents, subsidiaries, affiliates, successors, assigns, officers, directors, shareholders, members, partners, employees, contractors, agents, licensors, suppliers, and distributors) from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or related to: (a) your violation of these Terms; (b) your misuse of the App; (c) your violation of any applicable law or third-party right; (d) any content you submit or transmit through the App; or (e) your willful misconduct or gross negligence.
 
-11.2 **Procedure.** The Publisher reserves the right, at its expense, to assume exclusive defense and control of any matter otherwise subject to your indemnification, in which case you will cooperate with the Publisher's defense.
+11.2 **Procedure.** The Publisher (acting on its own behalf and on behalf of any other Released Party) reserves the right, at its expense, to assume exclusive defense and control of any matter otherwise subject to your indemnification, in which case you will cooperate with that defense.
+
+11.3 **Release of Developer Parties.** You hereby irrevocably and unconditionally release, waive, and forever discharge each Developer Party from any and all claims, demands, actions, causes of action, suits, damages, losses, costs, and expenses of every kind and nature, whether known or unknown, suspected or unsuspected, fixed or contingent, arising out of or related in any way to the App, these Terms, the Privacy Policy, any IAP, any Telemetry, any advertisement, any online service, or any act or omission of the Publisher. **If you are a resident of California, you expressly waive the protections of California Civil Code § 1542, which states: "A general release does not extend to claims that the creditor or releasing party does not know or suspect to exist in his or her favor at the time of executing the release and that, if known by him or her, would have materially affected his or her settlement with the debtor or released party."** You waive any analogous statute or rule in any other jurisdiction.
+
+11.4 **Covenant not to sue.** You covenant not to commence, prosecute, fund, assist, or voluntarily testify in any action against any Developer Party that is within the scope of the release in Section 11.3. A breach of this covenant entitles the affected Developer Party to recover its reasonable attorneys' fees and costs.
 
 ## 12. TERMINATION AND SUSPENSION
 
@@ -139,7 +163,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 12.2 **By the Publisher.** The Publisher may suspend or terminate your access to the App or any feature thereof, immediately and without prior notice or liability, for any reason or no reason, including (without limitation) if the Publisher reasonably believes you have violated these Terms, attempted to cheat or manipulate the Service, engaged in fraud, or pose a security or operational risk.
 
-12.3 **Effect of termination.** Upon termination: (a) your license to the App ends immediately; (b) you must uninstall the App; (c) all Promotional Benefits and Online Services entitlements end without compensation; (d) Sections 2.2 (Restrictions), 4 (no refunds), 6.2 (Score integrity), 8 (Proprietary Rights), 9 (Disclaimers), 10 (Limitation of Liability), 11 (Indemnification), 16 (Arbitration), 17 (Governing Law), and 18-22 survive in full.
+12.3 **Effect of termination.** Upon termination: (a) your license to the App ends immediately; (b) you must uninstall the App; (c) all Promotional Benefits and Online Services entitlements end without compensation; (d) Sections 2.2 (Restrictions), 4 (no refunds), 5A (Telemetry), 6.2 (Score integrity), 8 (Proprietary Rights), 9 (Disclaimers), 10 (Limitation of Liability), 11 (Indemnification, including Developer-Party release and covenant not to sue), 16 (Arbitration), 17 (Governing Law), 18-22, and 22A (Developer / Publisher Allocation) survive in full.
 
 ## 13. UPDATES AND MODIFICATIONS
 
@@ -205,7 +229,7 @@ The Publisher is not liable for any failure or delay in performance to the exten
 
 21.3 **No waiver.** No failure or delay by the Publisher to enforce any provision constitutes a waiver. Any waiver must be in writing and signed.
 
-21.4 **No third-party beneficiaries.** Except as expressly provided, these Terms do not create third-party beneficiary rights. Apple Inc. and Google LLC are intended third-party beneficiaries of these Terms solely with respect to those provisions that pertain to the App's compliance with their respective platform policies, and each has the right (and is deemed to have accepted the right) to enforce those provisions against you.
+21.4 **Third-party beneficiaries.** Except as expressly provided in these Terms, no person other than you and the Publisher has any rights under these Terms. The following are intended third-party beneficiaries with the right to enforce the relevant provisions directly against you: (a) **each Developer Party**, with respect to every disclaimer, exclusion, limitation of liability, release, covenant not to sue, indemnity, arbitration provision, class-action waiver, governing-law and venue provision, time-bar, and any other protection contained in these Terms; (b) **Apple Inc.**, with respect to the provisions concerning compliance with the Apple App Store policies (including Section 21.8); and (c) **Google LLC**, with respect to the provisions concerning compliance with the Google Play policies. Each such beneficiary is deemed to have accepted such rights without any further act.
 
 21.5 **Headings.** Section headings are for convenience only and do not affect interpretation.
 
@@ -214,6 +238,20 @@ The Publisher is not liable for any failure or delay in performance to the exten
 21.7 **Relationship.** Nothing in these Terms creates a partnership, joint venture, agency, employment, or fiduciary relationship between you and the Publisher.
 
 21.8 **Apple App Store / Google Play additional terms.** If you downloaded the App from the Apple App Store: you acknowledge that these Terms are concluded solely between you and the Publisher, not Apple; Apple is not responsible for the App or its content; Apple has no obligation to provide maintenance or support; and the additional terms set forth at https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ apply to the extent inconsistent with these Terms. If you downloaded from Google Play: Google is similarly not a party.
+
+## 22A. DEVELOPER / PUBLISHER ALLOCATION
+
+22A.1 **Publishing arrangement.** The App was originally conceived, designed, and developed by the Creator. By written agreement between the Creator and the Publisher, the Publisher has been granted (and/or has had assigned to it) all rights and licenses required to reproduce, modify, distribute, sell, monetize, advertise, operate, support, and update the App on a worldwide basis. The Publisher publishes, distributes, and is responsible for the App **in its own name and on its own account**. The Creator and the other Developer Parties act solely as licensors and/or independent contractors; they are not partners, joint venturers, agents, or employees of the Publisher in their dealings with you.
+
+22A.2 **End-user-facing party.** With respect to you, the End User: (a) the Publisher is the sole party that offers, makes available, and supports the App and any IAPs; (b) the Publisher is the sole party that determines Telemetry purposes and means as data controller / business; (c) the Publisher is the sole party against whom any claim arising out of or related to the App may be brought; and (d) the Developer Parties owe you no duty of care, contract, warranty, support, refund, indemnity, fiduciary, or other obligation of any kind.
+
+22A.3 **Full release of Developer Parties.** Without limiting Section 11.3, you irrevocably release, waive, and forever discharge each Developer Party from any and all liability, claims, damages, losses, costs, and expenses arising out of or related to: (a) any defect, bug, vulnerability, malfunction, data loss, service outage, or other technical issue affecting the App; (b) any IAP, refund dispute, billing error, or pricing change; (c) any advertisement, ad-network behavior, or third-party content displayed in or through the App; (d) any Telemetry, analytics, attribution, or diagnostic data; (e) any leaderboard reset, score invalidation, account suspension, or anti-cheat action; (f) any change, suspension, or termination of the App or any feature; (g) any alleged infringement, defamation, or violation of third-party rights arising from content delivered through the App; (h) any breach of these Terms or the Privacy Policy; and (i) any act or omission of the Publisher. **To the maximum extent permitted by applicable law, this release applies whether the claim is based in contract, tort (including negligence), strict liability, statute, equity, or any other legal theory, and whether or not the Developer Party was advised of the possibility of such damages.**
+
+22A.4 **Indemnity by Publisher to Developer Parties.** The Publisher has separately undertaken to defend, indemnify, and hold harmless the Developer Parties from claims brought by End Users. That indemnity is a matter between the Publisher and the Developer Parties; it is not an admission of liability and does not create any right in any End User. You are not a third-party beneficiary of that indemnity.
+
+22A.5 **Continued effectiveness on change of Publisher.** If the Publisher assigns, transfers, sells, merges, or otherwise transitions its rights and obligations under these Terms to a successor (an event permitted by Section 14), this Section 22A continues in full force in favor of the Developer Parties and binds the successor.
+
+22A.6 **No reliance on Developer-Party statements.** You agree that you have not relied, and may not rely, on any statement, representation, demonstration, marketing material, social-media post, source-code comment, public repository, interview, conference talk, blog post, or other communication attributed to any Developer Party in deciding to use the App or make any IAP. All representations and warranties (none of which are made, see Section 9) are made by the Publisher only.
 
 ## 22. CONTACT AND PUBLISHER
 
@@ -226,4 +264,4 @@ The Publisher is not liable for any failure or delay in performance to the exten
 
 ---
 
-By tapping "I Accept" inside the App, you confirm that you have read these Terms, understand them, and agree to be bound by them, including (without limitation) the **arbitration**, **class-action waiver**, **limitation of liability**, **disclaimer of warranties**, and **indemnification** provisions.
+By tapping "I Accept" inside the App, you confirm that you have read these Terms, understand them, and agree to be bound by them, including (without limitation) the **arbitration**, **class-action waiver**, **limitation of liability**, **disclaimer of warranties**, **indemnification**, **Telemetry disclosures**, and **complete release of the Developer Parties (Section 11.3, Section 22A)** provisions.

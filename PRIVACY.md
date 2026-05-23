@@ -1,7 +1,7 @@
 # GridPop — Privacy Policy
 
 **Effective date:** 2026-05-23
-**Version:** 2.0
+**Version:** 2.1
 
 This Privacy Policy ("Policy") describes how the publisher of the GridPop mobile application ("App", "Service", "we", "us", "our") collects, uses, discloses, retains, and protects information in connection with your use of the App. This Policy forms part of, and is incorporated by reference into, the GridPop Terms of Service ("Terms"). Capitalized terms used but not defined here have the meanings given in the Terms.
 
@@ -24,7 +24,9 @@ This Policy is designed to comply, to the maximum extent applicable, with:
 
 ## 1. Data Controller and Contact
 
-The data controller (GDPR/UK GDPR) and "business" (CCPA/CPRA) responsible for processing personal data described in this Policy is the publisher identified in Section 22 of the Terms ("Publisher").
+The data controller (GDPR/UK GDPR) and "business" (CCPA/CPRA) responsible for processing personal data described in this Policy is the publisher identified in Section 22 of the Terms ("**Publisher**"). The Publisher alone determines the purposes and means of processing.
+
+The persons who originally conceived, designed, and developed the App (the "**Creator**" and, with their respective affiliates, employees, contractors, and licensors, the "**Developer Parties**") are **not** data controllers, joint controllers, processors, or sub-processors of personal data described in this Policy and have no role in determining the purposes and means of processing. The Developer Parties do **not** receive personal data about you in identifiable form. Any data-subject request or complaint must be directed to the Publisher.
 
 For all privacy questions, data-subject requests, or complaints:
 
@@ -95,7 +97,32 @@ AdMob's processing is governed by Google's privacy policy and policies for adver
 
 We display only **rewarded video advertisements**, only when you voluntarily request them. We do **not** display banner ads, interstitial ads, native ads, or unsolicited advertisements of any kind. We do **not** use AdMob's audience-segmentation or remarketing features.
 
-### 3.5 Data we do not collect
+### 3.5 Telemetry, analytics, and diagnostics
+
+The App may, now or in future versions, collect telemetry, analytics, performance, and crash-reporting data ("**Telemetry**") to understand how the App is installed, opened, used, and closed; to measure feature engagement, session length, and retention; to identify crashes, errors, and performance issues; to detect fraud and abuse; to measure monetization effectiveness; to run A/B tests; to operate, secure, and improve the App; and to comply with legal or platform requirements.
+
+**Categories of Telemetry that may be collected:**
+
+- App version and build, operating-system name and version, device model, language, region, screen size and orientation, free memory and storage, connection type.
+- App lifecycle events (install, first launch, open, foreground, background, close, crash, force-quit) and timestamps.
+- Feature events (mode selected, game started or ended, score, IAP screen viewed, button tapped, ad requested, ad watched, setting changed).
+- Error reports and crash stack traces (which may incidentally include filenames and code symbols but exclude content data and personal identifiers we do not collect).
+- Request and response timings for online features (leaderboards, ad fetch).
+- A randomly-generated opaque "installation identifier" used solely to deduplicate events; not linked to your real identity.
+
+**Categories of Telemetry that are NOT collected:** the content of any communications, real name, email address, phone number, postal address, payment-instrument data, precise geolocation, contacts, photos, calendar, microphone or camera content, or any data the App has not been granted permission to access.
+
+**Third-party processors that may handle Telemetry on the Publisher's behalf** (each acting as a processor under the Publisher's documented instructions): Apple App Analytics, Google Play Console reporting, Firebase, Google Analytics for Firebase, Sentry, Crashlytics, AppsFlyer, Adjust, Mixpanel, Amplitude, PostHog, or a successor service. The specific set of providers in use at any given time may change; the **current** set is available on request at privacy@gridpop.app and, where required by platform policy, is also disclosed in the App Store "Privacy Nutrition Label" and the Google Play "Data Safety" form for the App.
+
+**Legal basis (GDPR/UK GDPR):** Where Telemetry is strictly necessary to provide the Service or to detect fraud or security incidents, the Publisher relies on legitimate interests (Art. 6(1)(f)) and on performance of a contract (Art. 6(1)(b)). Where applicable law requires consent (for example, where Telemetry involves access to information stored on your device beyond what is strictly necessary, or where it relies on a device identifier subject to ATT/UMP), the Publisher will request your consent through an in-App dialog or platform consent framework before collecting that Telemetry, and you may withdraw consent at any time from the App's settings.
+
+**No sale; no behavioral-advertising profiles.** Telemetry is not "sold" or "shared" for cross-context behavioral advertising as those terms are defined under the CCPA/CPRA and similar laws.
+
+**Aggregation and de-identification.** The Publisher may create aggregated or de-identified data from Telemetry and may use, retain, and disclose such data without restriction for any lawful purpose.
+
+**Developer Parties.** The Developer Parties do not receive Telemetry in identifiable form, do not determine the purposes and means of its processing, and have no obligation or liability in respect of it (see Section 1 and the Terms).
+
+### 3.6 Data we do not collect
 
 We do **not** collect or process:
 
@@ -119,6 +146,7 @@ We process data only for the purposes and on the lawful bases set out below.
 | Maintain leaderboard integrity, detect fraud or cheating | 3.2 submitted data | Legitimate interests (Art. 6(1)(f)) — operating a fair service |
 | Maintain a legal record of your acceptance of the Terms | 3.1 / 3.2 acceptance records | Legal obligation (Art. 6(1)(c)) and legitimate interests (Art. 6(1)(f)) |
 | Serve a voluntary rewarded advertisement on request | 3.4 AdMob data | Consent (Art. 6(1)(a)) — for ad personalization and advertising identifier where applicable; legitimate interests for fraud-prevention diagnostics |
+| Understand how the App is installed, opened, used, and closed; detect crashes; measure feature engagement; A/B test; secure and improve the App | 3.5 Telemetry | Legitimate interests (Art. 6(1)(f)) for strictly-necessary diagnostics and security; performance of contract (Art. 6(1)(b)) for operating requested features; consent (Art. 6(1)(a)) for any Telemetry that requires consent under applicable law (collected via in-App consent dialog or ATT/UMP) |
 | Comply with law, respond to lawful requests, defend legal claims | any | Legal obligation (Art. 6(1)(c)) and legitimate interests (Art. 6(1)(f)) |
 
 Where we rely on legitimate interests, we have performed a balancing assessment and concluded that our interests are not overridden by your fundamental rights and freedoms. You may object to such processing under Section 9.
@@ -159,6 +187,9 @@ We retain personal data only for as long as necessary to fulfill the purposes fo
 | Online leaderboard scores (Section 3.2) | While the leaderboard service operates; Daily Challenge entries may be purged after 90 days |
 | Aggregate or de-identified leaderboard statistics | Indefinitely, in a form that cannot reasonably be re-identified |
 | Server access logs (IP address, request timestamp, user-agent) | Up to 30 days, then deleted or aggregated |
+| Telemetry events (raw, event-level) | Up to 25 months (Google Analytics maximum default) or shorter as configured |
+| Crash and error reports | Up to 90 days for raw stack traces; aggregate counts may be retained indefinitely |
+| Aggregated / de-identified Telemetry | Indefinitely, in a form that cannot reasonably be re-identified |
 | IAP entitlement records | Duration of entitlement plus 7 years (accounting / tax compliance) |
 | Terms acceptance records | Duration of your use plus 3 years (limitations period) |
 | Records related to legal claims or disputes | Duration of the matter plus the applicable limitations period |
