@@ -1,9 +1,9 @@
-# GridPop — Privacy Policy
+# GridBurst — Privacy Policy
 
 **Effective date:** 2026-05-23
 **Version:** 2.1
 
-This Privacy Policy ("Policy") describes how the publisher of the GridPop mobile application ("App", "Service", "we", "us", "our") collects, uses, discloses, retains, and protects information in connection with your use of the App. This Policy forms part of, and is incorporated by reference into, the GridPop Terms of Service ("Terms"). Capitalized terms used but not defined here have the meanings given in the Terms.
+This Privacy Policy ("Policy") describes how the publisher of the GridBurst mobile application ("App", "Service", "we", "us", "our") collects, uses, discloses, retains, and protects information in connection with your use of the App. This Policy forms part of, and is incorporated by reference into, the GridBurst Terms of Service ("Terms"). Capitalized terms used but not defined here have the meanings given in the Terms.
 
 This Policy is designed to comply, to the maximum extent applicable, with:
 
@@ -30,7 +30,7 @@ The persons who originally conceived, designed, and developed the App (the "**Cr
 
 For all privacy questions, data-subject requests, or complaints:
 
-- **Email:** privacy@gridpop.app
+- **Email:** privacy@gridburst.app
 
 EU/EEA users may contact the Publisher at the same address as our representative point of contact for GDPR purposes. We will respond within statutory timeframes (typically 30 days under GDPR/UK GDPR, 45 days under CCPA/CPRA, subject to permitted extensions).
 
@@ -112,7 +112,7 @@ The App may, now or in future versions, collect telemetry, analytics, performanc
 
 **Categories of Telemetry that are NOT collected:** the content of any communications, real name, email address, phone number, postal address, payment-instrument data, precise geolocation, contacts, photos, calendar, microphone or camera content, or any data the App has not been granted permission to access.
 
-**Third-party processors that may handle Telemetry on the Publisher's behalf** (each acting as a processor under the Publisher's documented instructions): Apple App Analytics, Google Play Console reporting, Firebase, Google Analytics for Firebase, Sentry, Crashlytics, AppsFlyer, Adjust, Mixpanel, Amplitude, PostHog, or a successor service. The specific set of providers in use at any given time may change; the **current** set is available on request at privacy@gridpop.app and, where required by platform policy, is also disclosed in the App Store "Privacy Nutrition Label" and the Google Play "Data Safety" form for the App.
+**Third-party processors that may handle Telemetry on the Publisher's behalf** (each acting as a processor under the Publisher's documented instructions): Apple App Analytics, Google Play Console reporting, Firebase, Google Analytics for Firebase, Sentry, Crashlytics, AppsFlyer, Adjust, Mixpanel, Amplitude, PostHog, or a successor service. The specific set of providers in use at any given time may change; the **current** set is available on request at privacy@gridburst.app and, where required by platform policy, is also disclosed in the App Store "Privacy Nutrition Label" and the Google Play "Data Safety" form for the App.
 
 **Legal basis (GDPR/UK GDPR):** Where Telemetry is strictly necessary to provide the Service or to detect fraud or security incidents, the Publisher relies on legitimate interests (Art. 6(1)(f)) and on performance of a contract (Art. 6(1)(b)). Where applicable law requires consent (for example, where Telemetry involves access to information stored on your device beyond what is strictly necessary, or where it relies on a device identifier subject to ATT/UMP), the Publisher will request your consent through an in-App dialog or platform consent framework before collecting that Telemetry, and you may withdraw consent at any time from the App's settings.
 
@@ -175,7 +175,7 @@ We do not sell or rent data to advertisers, data brokers, or third parties for m
 
 The App is offered globally. If you access the App from outside the country where our servers or service providers are located, your data may be transferred to, stored in, and processed in another country whose data-protection laws may differ from those of your country of residence.
 
-Where personal data of EU/EEA, UK, or Swiss users is transferred to a country not covered by an adequacy decision, we rely on appropriate safeguards — including the European Commission's Standard Contractual Clauses (2021/914), the UK International Data Transfer Addendum, and supplementary technical and organizational measures — to protect your data. A copy of the relevant safeguards may be requested at privacy@gridpop.app.
+Where personal data of EU/EEA, UK, or Swiss users is transferred to a country not covered by an adequacy decision, we rely on appropriate safeguards — including the European Commission's Standard Contractual Clauses (2021/914), the UK International Data Transfer Addendum, and supplementary technical and organizational measures — to protect your data. A copy of the relevant safeguards may be requested at privacy@gridburst.app.
 
 ## 8. Retention
 
@@ -225,7 +225,7 @@ Subject to applicable law and to verification of your identity, you may exercise
 
 **EU/EEA and UK residents** may lodge a complaint with their local supervisory authority; a list of EU authorities is available at https://edpb.europa.eu/about-edpb/about-edpb/members_en.
 
-**To exercise any right**, contact privacy@gridpop.app from the email address (if any) you have used to contact us, and include sufficient information to verify your identity and to identify the data at issue (for example, the opaque player identifier shown in the App's settings if you opted into online features). For locally-stored data, you may exercise your right to erasure instantly and without contacting us by uninstalling the App.
+**To exercise any right**, contact privacy@gridburst.app from the email address (if any) you have used to contact us, and include sufficient information to verify your identity and to identify the data at issue (for example, the opaque player identifier shown in the App's settings if you opted into online features). For locally-stored data, you may exercise your right to erasure instantly and without contacting us by uninstalling the App.
 
 We may refuse a request that is manifestly unfounded, excessive, or repetitive, or charge a reasonable fee where permitted by law.
 
@@ -235,7 +235,7 @@ The App is rated for general audiences but is **not directed to children under t
 
 We do not knowingly collect personal information from children below the applicable age of digital consent without verifiable parental consent. We do not use behavioral advertising; rewarded video advertisements served by Google AdMob are non-personalized for users we have reason to believe are under the applicable age, and we apply Google's "tag for child-directed treatment" / "tag for users under the age of consent" signals where relevant.
 
-If you are a parent or guardian and believe that a child under the applicable age has provided personal information to us, contact privacy@gridpop.app and we will delete the data promptly.
+If you are a parent or guardian and believe that a child under the applicable age has provided personal information to us, contact privacy@gridburst.app and we will delete the data promptly.
 
 ## 11. Security
 
@@ -308,10 +308,10 @@ In the event of any conflict between this Policy and the Terms, this Policy gove
 
 For all privacy questions, requests, and complaints:
 
-- **Email:** privacy@gridpop.app
+- **Email:** privacy@gridburst.app
 
 EU/EEA users who wish to lodge a complaint may also contact their local supervisory authority. A list is available at https://edpb.europa.eu/about-edpb/about-edpb/members_en. UK users may contact the Information Commissioner's Office at https://ico.org.uk/. California residents may contact the California Privacy Protection Agency at https://cppa.ca.gov/.
 
 ---
 
-This Privacy Policy is incorporated by reference into the GridPop Terms of Service. By accepting the Terms, you also accept this Policy.
+This Privacy Policy is incorporated by reference into the GridBurst Terms of Service. By accepting the Terms, you also accept this Policy.

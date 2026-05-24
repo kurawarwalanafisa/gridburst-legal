@@ -1,10 +1,10 @@
-# GridPop — Terms of Service
+# GridBurst — Terms of Service
 
 **Effective Date:** 2026-05-23
 **Last Updated:** 2026-05-23
 **Version:** 2.1
 
-These Terms of Service (the "**Terms**") govern your access to and use of the GridPop mobile application and any related services (collectively, the "**App**" or "**Service**") made available by the Publisher (defined in Section 22). By installing, accessing, registering for, or using the App in any manner, you ("**you**", "**your**", "**User**") agree to be bound by these Terms in full.
+These Terms of Service (the "**Terms**") govern your access to and use of the GridBurst mobile application and any related services (collectively, the "**App**" or "**Service**") made available by the Publisher (defined in Section 22). By installing, accessing, registering for, or using the App in any manner, you ("**you**", "**your**", "**User**") agree to be bound by these Terms in full.
 
 For the avoidance of doubt and as further set out in Section 23, the App was conceived, designed, and developed by one or more independent persons (each a "**Creator**" and, together with their respective heirs, successors, assigns, affiliates, employees, contractors, agents, and licensors, the "**Developer Parties**"). All right, title, and interest required to distribute, monetize, and support the App have been licensed or assigned to the Publisher. **You acknowledge and agree that the App is offered to you exclusively by the Publisher, that the Developer Parties have no contractual, fiduciary, support, warranty, indemnity, or other obligation of any kind to you, and that the Developer Parties are intended third-party beneficiaries of, and may directly enforce, every disclaimer, limitation of liability, release, indemnity, arbitration provision, class-action waiver, and covenant not to sue contained in these Terms.** Wherever these Terms refer to the "**Released Parties**", that term means, collectively, the Publisher, the Developer Parties, and each of their respective parents, subsidiaries, affiliates, successors, assigns, officers, directors, shareholders, members, partners, employees, contractors, agents, licensors, suppliers, and distributors.
 
@@ -47,7 +47,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 ## 3. THE SERVICE
 
-3.1 **Description.** GridPop is a block-puzzle game. Core gameplay (Classic mode, Daily Challenge) operates offline on your device after install. Optional online features (leaderboard score submission, advertising, cross-device sync) require an internet connection and supporting third-party services.
+3.1 **Description.** GridBurst is a block-puzzle game. Core gameplay (Classic mode, Daily Challenge) operates offline on your device after install. Optional online features (leaderboard score submission, advertising, cross-device sync) require an internet connection and supporting third-party services.
 
 3.2 **Modifications.** The Publisher may add, change, suspend, or remove any feature, mode, level, content, mechanic, pricing tier, or service in the App at any time, with or without notice, for any reason or no reason, including for compliance, performance, security, business, or legal reasons. The Publisher is not required to maintain feature parity across platforms, regions, or versions.
 
@@ -67,7 +67,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 4.5 **Pricing.** Prices are set per region by the distribution platform. The Publisher may change prices, add or remove tiers, run promotions, or offer regional discounts. Existing valid entitlements at the time of a price change will be honored to the extent technically feasible.
 
-4.6 **Subscriptions.** GridPop currently offers no auto-renewing subscriptions. If introduced, separate terms and disclosures will apply consistent with platform requirements.
+4.6 **Subscriptions.** GridBurst currently offers no auto-renewing subscriptions. If introduced, separate terms and disclosures will apply consistent with platform requirements.
 
 4.7 **Promotional content.** Any promotional codes, bonuses, free trials, welcome windows, or grant of in-app benefits ("**Promotional Benefits**") are voluntary, non-cash, non-transferable, have no cash value, may be revoked or modified at any time, and expire automatically when the App is uninstalled, the device is reset, the platform account is changed, or the underlying online service is discontinued.
 
@@ -121,7 +121,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 8.1 **Ownership.** All right, title, and interest in and to the App (including all software, source code, object code, designs, gameplay mechanics, level layouts, visual assets, audio, characters, names, logos, trademarks, trade dress, and accompanying documentation) are owned by the Publisher and/or its licensors and are protected by U.S. and international copyright, trademark, patent, trade-secret, and other intellectual property laws.
 
-8.2 **Trademarks.** "GridPop" and the GridPop logo are trademarks of the Publisher. All other trademarks are property of their respective owners.
+8.2 **Trademarks.** "GridBurst" and the GridBurst logo are trademarks of the Publisher. All other trademarks are property of their respective owners.
 
 8.3 **DMCA / IP complaints.** If you believe content in the App infringes a copyright you own or control, send a notice meeting the requirements of 17 U.S.C. § 512(c) to the contact in Section 22. Repeat infringers will have their access terminated.
 
@@ -257,10 +257,10 @@ The Publisher is not liable for any failure or delay in performance to the exten
 
 **Publisher:** [To be specified — legal name of the company or sole proprietor publishing the App]
 **Address:** [To be specified — business or registered address]
-**Support:** support@gridpop.app
-**Legal / Notice:** legal@gridpop.app
-**Privacy / Data Subject Requests:** privacy@gridpop.app
-**DMCA Agent:** dmca@gridpop.app
+**Support:** support@gridburst.app
+**Legal / Notice:** legal@gridburst.app
+**Privacy / Data Subject Requests:** privacy@gridburst.app
+**DMCA Agent:** dmca@gridburst.app
 
 ---
 
