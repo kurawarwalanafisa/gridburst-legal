@@ -2,7 +2,7 @@
 
 **Effective Date:** 2026-05-23
 **Last Updated:** 2026-05-23
-**Version:** 2.1
+**Version:** 2.2
 
 These Terms of Service (the "**Terms**") govern your access to and use of the GridBurst mobile application and any related services (collectively, the "**App**" or "**Service**") made available by the Publisher (defined in Section 22). By installing, accessing, registering for, or using the App in any manner, you ("**you**", "**your**", "**User**") agree to be bound by these Terms in full.
 
@@ -47,7 +47,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 ## 3. THE SERVICE
 
-3.1 **Description.** GridBurst is a block-puzzle game. Core gameplay (Classic mode, Daily Challenge) operates offline on your device after install. Optional online features (leaderboard score submission, advertising, cross-device sync) require an internet connection and supporting third-party services.
+3.1 **Description.** GridBurst is a block-puzzle game. Core gameplay (Classic mode, Daily Challenge) operates offline on your device after install. Optional features that require an internet connection include: (i) submission of your Daily Challenge score to the Apple Game Center or Google Play Games leaderboard when your device is signed into that platform service, (ii) Google AdMob rewarded video advertisements that you may request by tapping a "Watch ad" button, (iii) in-app purchase processing through Apple or Google, and (iv) the App's periodic check of the current version of these Terms and the Privacy Policy. The App does not currently offer a publisher-operated cross-device sync, account system, or backend leaderboard; any sync of game progress between your devices is performed by Apple iCloud Backup or Google Play / Drive Backup at the operating-system level if you have enabled it.
 
 3.2 **Modifications.** The Publisher may add, change, suspend, or remove any feature, mode, level, content, mechanic, pricing tier, or service in the App at any time, with or without notice, for any reason or no reason, including for compliance, performance, security, business, or legal reasons. The Publisher is not required to maintain feature parity across platforms, regions, or versions.
 
@@ -113,7 +113,7 @@ These Terms include a **MANDATORY INDIVIDUAL ARBITRATION AND CLASS-ACTION WAIVER
 
 ## 7. THIRD-PARTY SERVICES AND OPEN-SOURCE COMPONENTS
 
-7.1 **Third-party services.** The App integrates third-party services including (without limitation): the Apple App Store, Apple Game Center, iCloud Keychain, Google Play Store, Google Play Games Services, Google AdMob, Google User Messaging Platform (UMP), and the Capacitor framework. Your use of those services is governed by their own terms and privacy policies. The Publisher is not responsible for third-party service availability, content, or practices.
+7.1 **Third-party services.** The App integrates third-party services including (without limitation): the Apple App Store and StoreKit (in-app purchases), Apple Game Center (leaderboard submission and platform sign-in), the Google Play Store and Google Play Billing, Google Play Games Services (leaderboard submission and platform sign-in), Google AdMob (rewarded video advertisements), the Google User Messaging Platform (GDPR/UK/EEA ad consent), and the Capacitor framework and its plugins. The App may, now or in future versions, integrate additional analytics, attribution, crash-reporting, or product-analytics services as described in Section 5A and in the Privacy Policy. Your use of those services is governed by their own terms and privacy policies. The Publisher is not responsible for third-party service availability, content, or practices.
 
 7.2 **Open-source notices.** The App incorporates open-source software components. A list of components and their licenses is available on request via the contact in Section 22 and may be presented within the App's About / Credits screen. The applicable open-source license governs use of each such component.
 

@@ -1,7 +1,7 @@
 # GridBurst — Privacy Policy
 
 **Effective date:** 2026-05-23
-**Version:** 2.1
+**Version:** 2.2
 
 This Privacy Policy ("Policy") describes how the publisher of the GridBurst mobile application ("App", "Service", "we", "us", "our") collects, uses, discloses, retains, and protects information in connection with your use of the App. This Policy forms part of, and is incorporated by reference into, the GridBurst Terms of Service ("Terms"). Capitalized terms used but not defined here have the meanings given in the Terms.
 
@@ -36,13 +36,15 @@ EU/EEA users may contact the Publisher at the same address as our representative
 
 ## 2. Scope
 
-This Policy applies to data processed in connection with the App and the optional online features it offers (such as a leaderboard service or rewarded video advertisements). It does **not** apply to:
+This Policy applies to data processed in connection with the App and the optional features it offers (leaderboard submission to Apple Game Center / Google Play Games, rewarded video advertisements via Google AdMob, telemetry as described in Section 3.5, and in-app purchases processed by Apple or Google). It does **not** apply to:
 
 - the Apple App Store, Google Play Store, Apple Game Center, Google Play Games, Apple iCloud, or Google Drive — each is governed by its operator's own privacy policy;
 - third-party websites linked from the App; or
 - advertising networks beyond Google AdMob.
 
 We are not responsible for the privacy practices of any third party.
+
+**No own backend today.** As of the Effective Date, we do not operate any backend server, database, account system, custom leaderboard, sync service, or analytics warehouse of our own. The App is a self-contained client that talks only to: (i) Apple and Google native services (App Store, Game Center, Play Games, IAP, OS-level diagnostics), (ii) Google AdMob and Google's User Messaging Platform for the voluntary rewarded-ad flow, (iii) a public static site (hosted on GitHub Pages) for serving the current version of these legal documents, and (iv) any Telemetry processor we later enable as described in Section 3.5. If we add an own backend at a later date, this Policy will be updated and re-presented before that processing begins.
 
 ## 3. Categories of Data
 
@@ -63,22 +65,29 @@ The following data is written to local storage on your device (e.g., `localStora
 
 This data persists until you uninstall the App or clear its data via your operating system.
 
-### 3.2 Data submitted to our servers (only if you opt into online features)
+### 3.2 Data transmitted to third-party platform leaderboards
 
-If — and only if — you opt into an online feature (such as the online leaderboard or cross-device sync), the following may be transmitted to our servers:
+**We do not operate our own backend server today.** The App's leaderboard feature is provided entirely through Apple Game Center (iOS / iPadOS) and Google Play Games (Android). When your device is signed into one of those services and you complete a Daily Challenge, the App calls the platform's native API to submit your **numeric daily best score** for that day's leaderboard ID. The submission goes **directly from your device to Apple or Google**, not to us. We do not see your real name, email address, platform account ID, IP address, or device advertising identifier as a result of that submission.
 
-- an opaque, App-scoped player identifier provided by your platform (Apple Game Center `gamePlayerID` or Google Play Games `playerID`), which is anonymous, scoped to this App only, and does not expose your real name, email, or platform account ID;
-- if a platform identifier is unavailable, a random UUID generated on your device;
-- numeric score values and submission timestamps;
-- App version, platform (iOS / Android / iPadOS), and a coarse country code derived from your IP address at request time (the IP address itself is **not stored** beyond the duration of the request and standard server logs);
-- the Terms version and acceptance timestamp, for legal compliance.
+What is sent to the platform:
 
-You may decline to opt into online features at any time. Declining does not affect single-player functionality.
+- the numeric Daily Challenge score and submission timestamp;
+- the leaderboard identifier the score is being submitted to (e.g., `daily_score_v1`);
+- whatever device, account, and network metadata Apple or Google itself attaches to a platform-API call. The amount and content of that metadata is determined by Apple and Google and is governed by their respective privacy policies; we do not control it and we do not receive it.
+
+**How to opt out.** Because submission happens automatically when your device is signed into Game Center / Play Games, the way to opt out is to sign out of (or never sign into) those services for the App at the operating-system level:
+
+- **iOS / iPadOS:** Settings → Game Center → toggle off, or Settings → Game Center → tap the App row and disable.
+- **Android:** Settings → Google → Play Games → manage account.
+
+When you are signed out of the platform service, the App's submission call fails silently and no score is sent. Single-player functionality is unaffected. Local scores remain on-device as described in Section 3.1.
+
+If we later add our own backend (for example, a custom global leaderboard, account system, or cross-device sync), we will update this Policy, present the changes inside the App on next launch, and obtain any consent required by applicable law before any new transmission begins.
 
 ### 3.3 Data received from your platform
 
-- **In-App Purchase receipts** are issued by Apple or Google for purchase validation and entitlement grants. Receipts are processed transiently and may be cached locally; we do not store payment card numbers, billing addresses, or other payment instruments.
-- If you opt into Apple Game Center or Google Play Games, the platform may share your opaque player identifier and, with your separate consent given to the platform, a display name. Where displayed (e.g., on leaderboards), display names are presented as supplied by the platform and not stored on our servers.
+- **In-App Purchase receipts** are issued by Apple or Google for purchase validation and entitlement grants. Receipts are processed transiently and may be cached locally on your device; we do not store payment card numbers, billing addresses, or other payment instruments, and we do not transmit receipts to any backend we operate.
+- If you are signed into Apple Game Center or Google Play Games, the platform may make your opaque player identifier and, with your separate consent given to the platform, a display name available to the App's runtime. Any such identifier or display name shown to other players (for example, on the platform leaderboard) is rendered and stored by Apple or Google, not by us.
 
 ### 3.4 Data processed by Google AdMob (advertising)
 
@@ -132,7 +141,8 @@ We do **not** collect or process:
 - precise or approximate geolocation (we do not request location permission);
 - access to your contacts, photos, calendar, microphone, camera, SMS, call log, or files outside the App sandbox;
 - browsing history outside the App;
-- behavioral analytics, in-app event tracking, session replay, heat maps, or third-party SDK telemetry beyond what is strictly necessary for AdMob to serve a requested ad.
+- session replay, screen recording, heat maps, eye-tracking, keystroke logging, or any behavioral profile for advertising or resale;
+- third-party SDK telemetry beyond (i) what Google AdMob requires to serve a requested rewarded ad and (ii) the Telemetry described in Section 3.5.
 
 ## 4. Purposes and Lawful Bases for Processing
 
@@ -142,8 +152,8 @@ We process data only for the purposes and on the lawful bases set out below.
 |---|---|---|
 | Provide the App's single-player functionality | 3.1 local data | Performance of a contract (Art. 6(1)(b)) |
 | Validate and grant In-App Purchase entitlements | 3.3 IAP receipts | Performance of a contract (Art. 6(1)(b)) |
-| Operate the optional online leaderboard you opted into | 3.2 submitted data | Consent (Art. 6(1)(a)) and performance of a contract (Art. 6(1)(b)) |
-| Maintain leaderboard integrity, detect fraud or cheating | 3.2 submitted data | Legitimate interests (Art. 6(1)(f)) — operating a fair service |
+| Submit your Daily Challenge score to the platform leaderboard (Apple Game Center / Google Play Games) when your device is signed into that service | 3.2 submission to platform | Performance of a contract (Art. 6(1)(b)) — providing the leaderboard feature you can opt out of by signing out of the platform service; and legitimate interests (Art. 6(1)(f)) in offering competitive play |
+| Leaderboard integrity, anti-cheat, and abuse detection | 3.2 / 3.5 | Legitimate interests (Art. 6(1)(f)) — operating a fair service. Note that platform leaderboards are operated by Apple and Google under their own anti-cheat measures |
 | Maintain a legal record of your acceptance of the Terms | 3.1 / 3.2 acceptance records | Legal obligation (Art. 6(1)(c)) and legitimate interests (Art. 6(1)(f)) |
 | Serve a voluntary rewarded advertisement on request | 3.4 AdMob data | Consent (Art. 6(1)(a)) — for ad personalization and advertising identifier where applicable; legitimate interests for fraud-prevention diagnostics |
 | Understand how the App is installed, opened, used, and closed; detect crashes; measure feature engagement; A/B test; secure and improve the App | 3.5 Telemetry | Legitimate interests (Art. 6(1)(f)) for strictly-necessary diagnostics and security; performance of contract (Art. 6(1)(b)) for operating requested features; consent (Art. 6(1)(a)) for any Telemetry that requires consent under applicable law (collected via in-App consent dialog or ATT/UMP) |
@@ -161,21 +171,27 @@ Voluntary rewarded advertisements delivered by Google AdMob may, where you have 
 
 ## 6. Recipients and Disclosures
 
-We may disclose data to the following categories of recipients:
+We do not operate our own backend today. As a result, the categories of recipients to which data flows from the App are limited to:
 
-- **Service providers / processors** acting on our documented instructions: cloud-hosting providers for any online leaderboard service we operate;
-- **Google LLC (AdMob)** for the purpose described in Section 3.4;
-- **Apple Inc. and Google LLC** as platform operators, in connection with IAP receipts, Game Center / Play Games, and required platform reporting;
-- **competent authorities, courts, regulators, or law-enforcement agencies** where required by valid legal process or to protect our rights, your safety, or the safety of others; and
-- **a successor entity** in connection with a merger, acquisition, reorganization, financing, sale of assets, bankruptcy, or insolvency event (with notice as required by law).
+- **Apple Inc. and Google LLC** as the operators of the App Store, Game Center, iCloud backup, Google Play, Google Play Games, and Google Play Console reporting — in connection with App distribution, IAP receipts, leaderboard submission (Section 3.2), and OS-level diagnostics that the device sends regardless of our wishes;
+- **Google LLC (Google AdMob and the Google User Messaging Platform)** for the purposes described in Sections 3.4 and 16;
+- **Telemetry service providers** described in Section 3.5, if and when we enable a particular provider, each acting as a processor on the Publisher's documented instructions;
+- **competent authorities, courts, regulators, or law-enforcement agencies** where required by valid legal process or to protect our rights, your safety, or the safety of others;
+- **professional advisors** (legal counsel, accountants, auditors) under duties of confidentiality, where reasonably necessary;
+- **a successor entity** in connection with a merger, acquisition, reorganization, financing, sale of assets, bankruptcy, or insolvency event (with notice as required by law); and
+- **cloud-hosting, infrastructure, security, or backend providers** that we may engage in the future if we add our own backend — none today.
 
 We do not sell or rent data to advertisers, data brokers, or third parties for marketing.
 
 ## 7. International Data Transfers
 
-The App is offered globally. If you access the App from outside the country where our servers or service providers are located, your data may be transferred to, stored in, and processed in another country whose data-protection laws may differ from those of your country of residence.
+Because we do not operate our own backend today, we do not ourselves transfer your personal data across borders. The cross-border transfers that may occur when you use the App are performed by third parties acting on their own account, including:
 
-Where personal data of EU/EEA, UK, or Swiss users is transferred to a country not covered by an adequacy decision, we rely on appropriate safeguards — including the European Commission's Standard Contractual Clauses (2021/914), the UK International Data Transfer Addendum, and supplementary technical and organizational measures — to protect your data. A copy of the relevant safeguards may be requested at privacy@gridburst.app.
+- **Apple Inc.** (App Store, Game Center, iCloud) — governed by Apple's privacy policy and Apple's own data-transfer safeguards;
+- **Google LLC** (Google Play, Google Play Games, Google AdMob, Google User Messaging Platform, and any Google-operated analytics service we later enable) — governed by Google's privacy policy and Google's own data-transfer safeguards, including the European Commission's Standard Contractual Clauses where applicable; and
+- any Telemetry processor we engage under Section 3.5, in which case we will execute the European Commission's Standard Contractual Clauses (2021/914), the UK International Data Transfer Addendum, the Swiss FDPIC Addendum, or other approved transfer mechanism, with supplementary technical and organizational measures as appropriate.
+
+If we later operate our own backend, we will enter into all transfer mechanisms required by then-applicable law before any personal data leaves your country of residence. A summary of the transfer mechanisms then in force may be requested at privacy@gridburst.app.
 
 ## 8. Retention
 
@@ -184,9 +200,9 @@ We retain personal data only for as long as necessary to fulfill the purposes fo
 | Category | Retention period |
 |---|---|
 | Local on-device data (Section 3.1) | Until you uninstall the App or clear its data |
-| Online leaderboard scores (Section 3.2) | While the leaderboard service operates; Daily Challenge entries may be purged after 90 days |
-| Aggregate or de-identified leaderboard statistics | Indefinitely, in a form that cannot reasonably be re-identified |
-| Server access logs (IP address, request timestamp, user-agent) | Up to 30 days, then deleted or aggregated |
+| Leaderboard score and submission timestamp (Section 3.2) | Retained by Apple Game Center / Google Play Games per the operator's own policy; we do not control retention and have no ability to delete entries on the platform leaderboard. The leaderboard ID and submission cadence we send is configured per Daily Challenge |
+| Aggregate or de-identified statistics derived from any data we lawfully hold | Indefinitely, in a form that cannot reasonably be re-identified |
+| Server access logs (only if we later operate a backend) | Up to 30 days, then deleted or aggregated. None today |
 | Telemetry events (raw, event-level) | Up to 25 months (Google Analytics maximum default) or shorter as configured |
 | Crash and error reports | Up to 90 days for raw stack traces; aggregate counts may be retained indefinitely |
 | Aggregated / de-identified Telemetry | Indefinitely, in a form that cannot reasonably be re-identified |
@@ -225,7 +241,13 @@ Subject to applicable law and to verification of your identity, you may exercise
 
 **EU/EEA and UK residents** may lodge a complaint with their local supervisory authority; a list of EU authorities is available at https://edpb.europa.eu/about-edpb/about-edpb/members_en.
 
-**To exercise any right**, contact privacy@gridburst.app from the email address (if any) you have used to contact us, and include sufficient information to verify your identity and to identify the data at issue (for example, the opaque player identifier shown in the App's settings if you opted into online features). For locally-stored data, you may exercise your right to erasure instantly and without contacting us by uninstalling the App.
+**To exercise any right**, contact privacy@gridburst.app and include sufficient information to verify your identity and to identify the data at issue. Because we do not currently maintain server-side records about individual users, the practical exercise of many rights is as follows:
+
+- **Locally-stored data (Section 3.1):** uninstall the App, or use your OS settings to clear the App's storage. This deletes all local data instantly without contacting us.
+- **Leaderboard scores submitted to Apple Game Center / Google Play Games (Section 3.2):** contact Apple or Google directly; we do not control the platform leaderboard and cannot delete platform-side entries.
+- **AdMob data (Section 3.4):** revoke ATT permission in iOS Settings → Privacy & Security → Tracking, change UMP consent in the App's settings, and / or follow Google's controls at https://adssettings.google.com/.
+- **Telemetry (Section 3.5):** withdraw consent through the App's in-app consent dialog (if one was presented to you), through your OS-level ATT / UMP choices, or by contacting privacy@gridburst.app to request that we instruct the relevant processor to delete events associated with your installation identifier.
+- **IAP receipts:** contact Apple or Google for refund and receipt records, which they alone control.
 
 We may refuse a request that is manifestly unfounded, excessive, or repetitive, or charge a reasonable fee where permitted by law.
 
@@ -241,11 +263,11 @@ If you are a parent or guardian and believe that a child under the applicable ag
 
 We implement appropriate technical and organizational measures designed to protect personal data against accidental or unlawful destruction, loss, alteration, unauthorized disclosure, or access, including:
 
-- Transport Layer Security (HTTPS / TLS) for all transmissions to our servers;
-- access controls on server-side systems;
-- segregation of production and non-production environments;
-- routine application of security patches; and
-- minimization of data collected and retained.
+- HTTPS / TLS for all outbound network requests the App makes that we control (today, this is limited to fetching the current Terms version file from our public legal-documents static site, and to calls to Apple, Google, and Google AdMob, each of which encrypts its own transport);
+- minimization of data collected and retained;
+- separation of legal-documents hosting from any future operational backend;
+- routine review of native plugin and third-party SDK updates for security advisories;
+- reliance on the security controls of Apple, Google, and any future processor we engage (each of which publishes its own security documentation).
 
 No security measure is impenetrable. We cannot and do not guarantee absolute security. You are responsible for keeping your device and platform account secure (including using a current operating system version and a screen lock).
 
@@ -277,11 +299,11 @@ For users in the EU, EEA, and UK, the first time you request a rewarded video ad
 
 ## 17. Service Discontinuation
 
-If we discontinue any online service (such as the leaderboard or sync), we will:
+If we discontinue any online or platform-dependent feature of the App (for example, by removing leaderboard submission, removing rewarded-ad support, removing IAP, or removing the App itself), or if a third-party service we depend on (Apple Game Center, Google Play Games, Google AdMob, an analytics processor, etc.) is discontinued or becomes unavailable to us, we will:
 
-- where reasonably practicable, notify users in advance via the App, our website, or our store listings;
+- where reasonably practicable, notify users in advance via the App, our store listings, or our public website / legal-documents page;
 - preserve locally-stored game progress on your device (no deletion required from us);
-- where technically feasible, provide a final opportunity to export your data; and
+- where technically feasible and where we hold the data on a backend we operate, provide a final opportunity to export your data; and
 - where required by law, retain data for the minimum period necessary to satisfy legal obligations and then delete it.
 
 Discontinuation does not entitle you to a refund (see Section 4 of the Terms).
